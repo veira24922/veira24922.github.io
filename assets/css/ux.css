@@ -60,7 +60,7 @@ div#page-container {
 }
 div#card {
     position: relative;
-    width: 88%;
+    width: 75%;
     height: auto;
     left: 50%;
     transform: translateX(-50%);
