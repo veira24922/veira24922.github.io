@@ -45,7 +45,7 @@ header#page-header {
 }
 div#page-container {
     width: 100%;
-    height: calc(100vh - 24px);
+    height: calc(100vh - 30px);
     background-image: repeating-linear-gradient(
         45deg,
         #fcfcfc 0%,
@@ -59,14 +59,14 @@ div#page-container {
     overflow-y: auto;
 }
 div#card {
-    position: absolute;
+    position: relative;
     width: 88%;
     height: auto;
     left: 50%;
     transform: translateX(-50%);
     padding: 12px;
     margin-top: 32px;
-    backdrop-filter: blur(3px);
+    margin-bottom: 32px;
     background: linear-gradient(
         180deg,
         rgba(105, 165, 255, 0.55) 0%,
