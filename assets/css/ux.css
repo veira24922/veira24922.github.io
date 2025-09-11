@@ -79,6 +79,9 @@ div#card {
     box-shadow: 0px 0px 0px 2px rgb(152, 182, 200);
     border-radius: 6px;
 }
+div#card.half-size {
+    width: 50%;
+}
 img#profile-image {
     margin-right: 16px;
 }
