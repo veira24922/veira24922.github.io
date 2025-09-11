@@ -28,6 +28,7 @@ header#page-header {
     background-color: transparent;
     border: 1px solid transparent;
     box-shadow: 0px 0px 0px 1px transparent;
+    margin-right: 12px;
     border-radius: 3px;
     overflow: hidden;
 }
